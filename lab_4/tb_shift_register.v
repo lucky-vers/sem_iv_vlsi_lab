@@ -4,12 +4,12 @@ module tb_shift_register;
     wire [3:0] data_out;
 
     shift_register uut(
-        .clk(clk), 
-        .rst(rst), 
-        .load(load), 
-        .shift(shift), 
-        .dir(dir), 
-        .data_in(data_in), 
+        .clk(clk),
+        .rst(rst),
+        .load(load),
+        .shift(shift),
+        .dir(dir),
+        .data_in(data_in),
         .data_out(data_out)
     );
 

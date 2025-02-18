@@ -3,8 +3,8 @@ module tb_and_gate;
     wire AB;
 
     and_gate uut(
-        .A(A), 
-        .B(B), 
+        .A(A),
+        .B(B),
         .AB(AB)
     );
 

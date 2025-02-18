@@ -3,11 +3,11 @@ module tb_jk_flipflop;
     wire q, qn;
 
     jk_flipflop uut(
-        .clk(clk), 
-        .rst(rst), 
-        .j(j), 
-        .k(k), 
-        .q(q), 
+        .clk(clk),
+        .rst(rst),
+        .j(j),
+        .k(k),
+        .q(q),
         .qn(qn)
     );
 

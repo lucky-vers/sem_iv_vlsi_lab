@@ -3,8 +3,8 @@ module tb_mod8_counter;
     wire [2:0] count;
 
     mod8_counter uut(
-        .clk(clk), 
-        .rst(rst), 
+        .clk(clk),
+        .rst(rst),
         .count(count)
     );
 

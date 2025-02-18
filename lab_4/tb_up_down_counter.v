@@ -3,9 +3,9 @@ module tb_up_down_counter;
     wire [3:0] count;
 
     up_down_counter uut(
-        .clk(clk), 
-        .rst(rst), 
-        .up_down(up_down), 
+        .clk(clk),
+        .rst(rst),
+        .up_down(up_down),
         .count(count)
     );
 
