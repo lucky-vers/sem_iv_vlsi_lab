@@ -16,13 +16,13 @@ initial begin
     clk = 0;
     rst = 1;
     enable = 0;
-    
+
     #10 rst = 0;
     #10 enable = 1;
-    
+
     #200 enable = 0;
     #20 enable = 1;
-    
+
     #50 $finish;
 end
 

@@ -25,20 +25,20 @@ initial begin
     parallel_in = 0;
     serial_in_left = 0;
     serial_in_right = 0;
-    
+
     #10 rst = 0;
-    
+
     #10 mode = 2'b11; parallel_in = 4'b1010;
     #10 mode = 2'b00;
-    
+
     #10 mode = 2'b01; serial_in_left = 1;
     #10 mode = 2'b01; serial_in_left = 0;
-    
+
     #10 mode = 2'b10; serial_in_right = 1;
     #10 mode = 2'b10; serial_in_right = 0;
-    
+
     #10 mode = 2'b11; parallel_in = 4'b1111;
-    
+
     #50 $finish;
 end
 
